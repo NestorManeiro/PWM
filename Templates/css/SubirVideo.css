@@ -1,0 +1,46 @@
+#upload{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-color: blue;
+  padding-bottom: 1em;
+  margin-top: 3em;
+}
+
+#upload ul li{
+  list-style:none;
+}
+#upload button{
+  width: 10%;
+}
+#upload span{
+  font-size: 30px;
+}
+#upload #name{
+  padding-bottom: 2em;
+  padding-right: 50em;
+}
+#upload #pwd{
+  padding-bottom: 12em;
+  padding-right: 50em;
+}
+
+#upload table{
+  margin-left: 3em;
+}
+#upload table span{
+  padding: 0;
+}
+#preview{
+  width: 300px;
+  margin-right: 3em;
+}
+
+#upload #left{
+  margin-left:8%;
+}
+#upload #right{
+  margin-right:40%;
+  float: right;
+}

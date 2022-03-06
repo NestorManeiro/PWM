@@ -1,0 +1,186 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.5em;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(53, 54, 58)
+}
+
+span {
+  padding: 1em;
+  vertical-align:center;
+  color: black;
+}
+/* NAVBAR */
+#nav {
+  display: flex;
+  height: 3em;
+  overflow: hidden;
+  background-color: lightblue;
+  border:1px solid black;
+}
+#nav img{
+  height: 3em;
+}
+#nav .webname{
+  position: fixed;
+  font-size: 20px;
+}
+.nav {
+  display: flex;
+  line-height: 0em;
+  flex-grow: 1;
+}
+
+#nav {
+  overflow: hidden;
+  flex-direction: row;
+}
+
+#nav .right {
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-end;
+  left: 1.5em;
+  height: auto;
+  padding-top: 0.5em;
+}
+
+#nav .right .iconcitos{
+  height: 2em;
+}
+
+.overlay { 
+  position: fixed;
+  margin-top: 4em;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target{
+  visibility: visible;
+  opacity: 1;
+}
+
+#popupBody{
+  width: 100%;
+  padding: 2%;
+  border-radius: 15px;
+  background: #B8E4FC;
+
+}
+/* SideBar*/
+#sidebar{
+    background-color: lightblue;
+    position: fixed;
+    top: 3em;
+    padding-top: 2em;
+    width: 3em;
+    height: 100%;
+    border:1px solid black;
+    border-top: none;
+}
+#sidebar .iconos{
+  height: 3em;
+  line-height: 1em;
+
+  }
+
+ #sidebar .users{
+  height: 3em;
+  line-height: 1em;
+  border-radius: 50%;
+ }
+
+#maindiv{
+  left: 4em;
+  top: 5em;
+  position: fixed;
+  color: white;
+
+}
+
+#maindiv .center{
+position: middle;
+width: 300px;
+}
+
+#maindiv .banner{
+position: relative;
+width: 110%;
+height: 5em;
+background-image: url("https://images.pexels.com/photos/2382325/pexels-photo-2382325.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+
+#maindiv .perfil{
+position: relative;
+width: 110%;
+height: 5em;
+background-color: black;
+}
+
+#maindiv .perfil img{
+  height:5em;
+  position: relative;
+}
+#maindiv .perfil a{
+  color: white;
+}
+
+#registro{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 13%;
+  background-color: blue;
+  padding-bottom: 1em;
+  margin-top: 3em;
+}
+
+#registro ul li{
+  list-style:none;
+}
+#registro button{
+  width: 90%;
+
+}
+#registro span{
+  font-size: 30px;
+}
+#registro input{
+  padding-bottom: 1em;
+}
+
+#mensajeria{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 50em;
+  background-color: lightblue;
+  margin-top: 3em;
+}
+#mensajeria table #contactos{  
+  width: 100%;
+  height: 45em;
+  border:1px solid black;
+}
+#mensajeria table #chat{
+  position: relative;
+  margin-left: 5px;
+  margin-right: auto;
+  width: 97.3%;
+  height: 45em;
+  background-color: white;
+}
+
+#mensajeria table #send{
+  position: relative;
+  margin-top: 42em;
+}
+
+#mensajeria #msg{
+  padding-right: 60em;
+}
